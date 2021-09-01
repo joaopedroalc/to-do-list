@@ -10,6 +10,7 @@ export default function Form({ handleChange, handleSubmit, novaTarefa }) {
       <input
         onChange={handleChange}
         type="text"
+        required
         value={novaTarefa}
       />
       <button type="submit">
